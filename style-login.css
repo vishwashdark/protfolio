@@ -1,60 +1,127 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+.image{
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+.image:hover{
+    transform: scale(1.05);
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
-.login-container {
+.navbar {
+    padding-left: 180px;
+    background-color: #53a8b6;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-right: 300px;
+    margin-left: 300px; 
+    text-align: center;
+    
+}
+.navbar:hover{
+    transform: scale(1.05);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    transform: scale(1.05);
+    background-color: #fdfafa;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.container {
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-name {
+    text-align: center;
+    margin-right: 20px;
+}
+.About{
+    text-align: center;
+    padding-left: 20px;
+
+}
+.para{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.name{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.about-box {
+    margin-left:60px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: white;
-    padding: 20px;
+    width: 900px;
+    height: 470px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+}
+.about-box:hover{
+    transform: scale(1.05);
+}
+
+.linkedin-profile {
+    display: inline-flex;
+    align-items: left;
+}
+
+.linkedin-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.linkedin-profile a {
+    text-decoration: none;
+    color: #030303;     
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.linkedin-profile a:hover {
+    text-decoration: underline;
+}
+
+.robot{
+    width: 350px;
+    height: 325px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    width: 300px;
+    margin-left: 260px;
 }
 
-.login-heading {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: lightsalmon;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-}
-
-.login-button:hover {
-    background-color:  darksalmon;
+.robot:hover {
+    transform: scale(1.02);
+    color: rgb(0, 0, 0);
 }
