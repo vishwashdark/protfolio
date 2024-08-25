@@ -1,0 +1,126 @@
+.image{
+    border-radius: 20px;
+    width: 150px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+.image:hover{
+    transform: scale(1.05);
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.navbar {
+    padding-left: 120px;
+    background-color: rgb(95, 190, 222);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-right: 230px;
+    margin-left: 220px; 
+    text-align: center;
+    
+}
+.navbar:hover{
+    transform: scale(1.05);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    transform: scale(1.05);
+    background-color: #fdfafa;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-name {
+    text-align: center;
+    margin-right: 20px;
+}
+.About{
+    text-align: center;
+    padding-left: 20px;
+
+}
+.para{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.name{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.about-box {
+    margin-left:60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 700px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+}
+.about-box:hover{
+    transform: scale(1.05);
+}
+
+.linkedin-profile {
+    display: inline-flex;
+    align-items: left;
+}
+
+.linkedin-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.linkedin-profile a {
+    text-decoration: none;
+    color: #030303;     
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.linkedin-profile a:hover {
+    text-decoration: underline;
+}
+
+.robot{
+    width: 250px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    margin-left: 220px;
+}
+
+.robot:hover {
+    transform: scale(1.05);
+    color: rgb(0, 0, 0);
+}
