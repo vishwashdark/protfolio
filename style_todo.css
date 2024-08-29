@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('robot.png');
+    background-size: cover;
+    background-position: center;
+}
+.square-box {
+    border: 2px solid white;
+    padding: 20px;
+    width: 400px; 
+    height: 400px;
+    margin: 0 auto; 
+    box-shadow: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.task-input {
+    margin-bottom: 40px;
+}
+
+.task-list li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.task-filters button {
+    margin: 0 5px;
+}
