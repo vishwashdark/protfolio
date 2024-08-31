@@ -12,6 +12,6 @@ function validateForm() {
         return false;
     }
 
-    return true; // Form is valid, allow submission
+    return true; 
 }
 
